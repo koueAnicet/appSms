@@ -58,7 +58,7 @@
       <string extracomment="Welcome to Sketch"/>
      </property>
      <property name="pixmap">
-      <pixmap>Users/imac-05/Downloads/images-removebg-preview.png</pixmap>
+      <pixmap>../../../Downloads/images-removebg-preview.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -196,7 +196,7 @@
        <x>30</x>
        <y>90</y>
        <width>131</width>
-       <height>131</height>
+       <height>121</height>
       </rect>
      </property>
      <property name="text">
@@ -204,12 +204,12 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>Users/imac-05/Downloads/images__2_-removebg-preview.png</normaloff>Users/imac-05/Downloads/images__2_-removebg-preview.png</iconset>
+       <normaloff>../../../Downloads/images__2_-removebg-preview.png</normaloff>../../../Downloads/images__2_-removebg-preview.png</iconset>
      </property>
      <property name="iconSize">
       <size>
-       <width>100</width>
-       <height>300</height>
+       <width>150</width>
+       <height>150</height>
       </size>
      </property>
     </widget>
@@ -227,12 +227,12 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>Users/imac-05/Downloads/images_android-removebg-preview.png</normaloff>Users/imac-05/Downloads/images_android-removebg-preview.png</iconset>
+       <normaloff>../../../Downloads/images_android-removebg-preview.png</normaloff>../../../Downloads/images_android-removebg-preview.png</iconset>
      </property>
      <property name="iconSize">
       <size>
-       <width>100</width>
-       <height>300</height>
+       <width>80</width>
+       <height>90</height>
       </size>
      </property>
     </widget>
@@ -250,7 +250,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>Users/imac-05/Downloads/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</normaloff>Users/imac-05/Downloads/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</iconset>
+       <normaloff>../../../Downloads/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</normaloff>../../../Downloads/apple-logo-scalable-vector-graphics-icon-png-favpng-cY95aZvvhkZ7VaUP2tcNJmi3s-removebg-preview.png</iconset>
      </property>
      <property name="iconSize">
       <size>

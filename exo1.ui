@@ -32,8 +32,8 @@
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>-20</y>
+       <x>20</x>
+       <y>-30</y>
        <width>951</width>
        <height>601</height>
       </rect>
@@ -189,17 +189,18 @@
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-color:white;
+color:rgb(133,133,133);
 font-size:13px;
 border-width:10px;
-  
+ border: 0.8px solid rgb(133,133,133);
+border-radius:none;
 
- box-shadow: 10px 10px 5px #aaaaaa;
 
 }
 
 QPushButton:hover {
-	border: 1px solid white;
+	color:white;
+	border: 2px solid white;
 	font: bold;
 	border-radius:none;
 
@@ -229,16 +230,18 @@ QPushButton:hover {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-color:white;
+color:rgb(133,133,133);
 font-size:13px;
-border-width:12px solid white;
- 
- 
+border-width:10px;
+ border: 0.8px solid rgb(133,133,133);
+border-radius:none;
+
 
 }
 
 QPushButton:hover {
-	border: 1px solid white;
+	color:white;
+	border: 2px solid white;
 	font: bold;
 	border-radius:none;
 
@@ -259,19 +262,20 @@ QPushButton:hover {
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-color:white;
+color:rgb(133,133,133);
 font-size:13px;
 border-width:10px;
-  
+ border: 0.8px solid rgb(133,133,133);
+border-radius:none;
 
- box-shadow: 10px 10px 5px #aaaaaa;
 
 }
 
 QPushButton:hover {
-border: 1px solid white;
-font: bold;
-border-radius:none;
+	color:white;
+	border: 2px solid white;
+	font: bold;
+	border-radius:none;
 
 }</string>
       </property>
@@ -290,19 +294,20 @@ border-radius:none;
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-color:white;
+color:rgb(133,133,133);
 font-size:13px;
 border-width:10px;
-  
+ border: 0.8px solid rgb(133,133,133);
+border-radius:none;
 
- box-shadow: 10px 10px 5px #aaaaaa;
 
 }
 
 QPushButton:hover {
-border: 1px solid white;
-font: bold;
-border-radius:none;
+	color:white;
+	border: 2px solid white;
+	font: bold;
+	border-radius:none;
 
 }</string>
       </property>
@@ -321,19 +326,20 @@ border-radius:none;
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-color:white;
+color:rgb(133,133,133);
 font-size:13px;
 border-width:10px;
-  
+ border: 0.8px solid rgb(133,133,133);
+border-radius:none;
 
- box-shadow: 10px 10px 5px #aaaaaa;
 
 }
 
 QPushButton:hover {
-border: 1px solid white;
-font: bold;
-border-radius:none;
+	color:white;
+	border: 2px solid white;
+	font: bold;
+	border-radius:none;
 
 }</string>
       </property>
@@ -346,7 +352,7 @@ border-radius:none;
        <rect>
         <x>60</x>
         <y>210</y>
-        <width>311</width>
+        <width>321</width>
         <height>31</height>
        </rect>
       </property>
@@ -368,9 +374,18 @@ border-radius:none;
       </property>
       <property name="styleSheet">
        <string notr="true">QLineEdit{
-	color:white;
+	color:rgb(133, 133, 133);
 	shadow:10px 0px red;
-}</string>
+	border-bottom:1px solid rgb(133, 133, 133);
+	border-radius:none;
+}
+
+QLineEdit:hover{
+	color:white;
+	border-bottom:2px solid white;
+	border-radius:none;
+}
+</string>
       </property>
       <property name="text">
        <string/>
@@ -400,8 +415,19 @@ border-radius:none;
        <enum>Qt::ClickFocus</enum>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-border-bottom-width: 12;</string>
+       <string notr="true">QLineEdit{
+	color:rgb(133, 133, 133);
+	shadow:10px 0px red;
+	border-bottom:1px solid rgb(133, 133, 133);
+	border-radius:none;
+}
+
+QLineEdit:hover{
+	color:white;
+	border-bottom:2px solid white;
+	border-radius:none;
+}
+</string>
       </property>
       <property name="placeholderText">
        <string>Your email</string>
@@ -415,12 +441,24 @@ border-bottom-width: 12;</string>
        <rect>
         <x>60</x>
         <y>330</y>
-        <width>311</width>
+        <width>321</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;</string>
+       <string notr="true">QLineEdit{
+	color:rgb(133, 133, 133);
+	shadow:10px 0px red;
+	border-bottom:1px solid rgb(133, 133, 133);
+	border-radius:none;
+}
+
+QLineEdit:hover{
+	color:white;
+	border-bottom:2px solid white;
+	border-radius:none;
+}
+</string>
       </property>
       <property name="placeholderText">
        <string>Tell us about your projet</string>
@@ -502,7 +540,7 @@ border-radius:none;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-color:white;
+color:rgb(133,133,133);
 
 }
 QPushButton:hover{
@@ -525,7 +563,7 @@ font: bold
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-color:white;
+color:rgb(133,133,133);
 
 }
 QPushButton:hover{
@@ -548,7 +586,7 @@ font: bold
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
-color:white;
+color:rgb(133,133,133);
 
 }
 QPushButton:hover{
@@ -596,7 +634,7 @@ font: bold
     <widget class="QLabel" name="label_7">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>90</x>
        <y>190</y>
        <width>291</width>
        <height>161</height>

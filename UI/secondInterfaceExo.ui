@@ -52,7 +52,8 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background:#141C3C;</string>
+      <string notr="true">background:#141C3C;
+background-image: url(:/images/image1/screen.png);</string>
      </property>
      <property name="text">
       <string extracomment="Welcome to Sketch"/>
@@ -86,8 +87,8 @@
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>0</y>
+      <x>350</x>
+      <y>-20</y>
       <width>651</width>
       <height>761</height>
      </rect>
@@ -148,7 +149,7 @@
       <enum>QTabWidget::North</enum>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="elments1">
       <attribute name="title">
@@ -328,6 +329,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="../resource.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -21,10 +21,11 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
-        self.frame.setGeometry(QtCore.QRect(210, 50, 411, 471))
+        self.frame.setGeometry(QtCore.QRect(190, 40, 411, 471))
         self.frame.setStyleSheet("QFrame{\n"
 "background-color:yellow;\n"
-"border:2px solid black;}")
+"border:2px solid black;\n"
+"border-radius:12px;}")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
@@ -34,10 +35,14 @@ class Ui_MainWindow(object):
 "background-color:black;\n"
 "font:Arial 20 bold;\n"
 "color:white;\n"
-"border-bottom:2px solid white;}")
+"border-bottom:2px solid white;\n"
+"border-radius:none;}")
         self.label.setObjectName("label")
         self.user_name = QtWidgets.QLineEdit(self.frame)
         self.user_name.setGeometry(QtCore.QRect(50, 100, 321, 31))
+        self.user_name.setStyleSheet("QLineEdit{\n"
+"border-top:5px solid black;\n"
+"}")
         self.user_name.setObjectName("user_name")
         self.label_2 = QtWidgets.QLabel(self.frame)
         self.label_2.setGeometry(QtCore.QRect(50, 150, 321, 31))
@@ -45,10 +50,15 @@ class Ui_MainWindow(object):
 "background-color:black;\n"
 "font:Arial 20 bold;\n"
 "color:white;\n"
-"border-bottom:2px solid white;}")
+"border-bottom:2px solid white;\n"
+"border-radius:none;}")
         self.label_2.setObjectName("label_2")
         self.user_number = QtWidgets.QLineEdit(self.frame)
         self.user_number.setGeometry(QtCore.QRect(50, 199, 321, 31))
+        self.user_number.setStyleSheet("QLineEdit{\n"
+"border-top:5px solid black;\n"
+"}\n"
+"")
         self.user_number.setObjectName("user_number")
         self.label_3 = QtWidgets.QLabel(self.frame)
         self.label_3.setGeometry(QtCore.QRect(50, 249, 321, 31))
@@ -56,12 +66,16 @@ class Ui_MainWindow(object):
 "background-color:black;\n"
 "font:Arial 20 bold;\n"
 "color:white;\n"
-"border-bottom:2px solid white;}")
+"border-bottom:2px solid white;\n"
+"border-radius:none;}\n"
+"")
         self.label_3.setObjectName("label_3")
         self.user_speech = QtWidgets.QTextEdit(self.frame)
         self.user_speech.setGeometry(QtCore.QRect(50, 310, 321, 71))
         self.user_speech.setStyleSheet("QTextEdit{\n"
 "background-color:lightgray;\n"
+"border-radius:none;\n"
+"border-bottom:2px solid white;\n"
 "}")
         self.user_speech.setObjectName("user_speech")
         self.send_btn = QtWidgets.QPushButton(self.frame)
@@ -89,10 +103,12 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">USER NAME</span></p></body></html>"))
+        self.user_name.setPlaceholderText(_translate("MainWindow", "user name"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">NUMBER</span></p></body></html>"))
+        self.user_number.setPlaceholderText(_translate("MainWindow", "number"))
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">SAY  ABOUT</span></p></body></html>"))
         self.user_speech.setPlaceholderText(_translate("MainWindow", "talk about any thing!"))
-        self.send_btn.setText(_translate("MainWindow", "ENVOYER"))
+        self.send_btn.setText(_translate("MainWindow", "SEND"))
 
 
 if __name__ == "__main__":

@@ -22,8 +22,8 @@ background-color:lightblue;
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>50</y>
+      <x>190</x>
+      <y>40</y>
       <width>411</width>
       <height>471</height>
      </rect>
@@ -31,7 +31,8 @@ background-color:lightblue;
     <property name="styleSheet">
      <string notr="true">QFrame{
 background-color:yellow;
-border:2px solid black;}</string>
+border:2px solid black;
+border-radius:12px;}</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -53,7 +54,8 @@ border:2px solid black;}</string>
 background-color:black;
 font:Arial 20 bold;
 color:white;
-border-bottom:2px solid white;}</string>
+border-bottom:2px solid white;
+border-radius:none;}</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;USER NAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -67,6 +69,14 @@ border-bottom:2px solid white;}</string>
        <width>321</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border-top:5px solid black;
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>user name</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_2">
@@ -83,7 +93,8 @@ border-bottom:2px solid white;}</string>
 background-color:black;
 font:Arial 20 bold;
 color:white;
-border-bottom:2px solid white;}</string>
+border-bottom:2px solid white;
+border-radius:none;}</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;NUMBER&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -97,6 +108,15 @@ border-bottom:2px solid white;}</string>
        <width>321</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+border-top:5px solid black;
+}
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>number</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
@@ -113,7 +133,9 @@ border-bottom:2px solid white;}</string>
 background-color:black;
 font:Arial 20 bold;
 color:white;
-border-bottom:2px solid white;}</string>
+border-bottom:2px solid white;
+border-radius:none;}
+</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;SAY  ABOUT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -131,6 +153,8 @@ border-bottom:2px solid white;}</string>
      <property name="styleSheet">
       <string notr="true">QTextEdit{
 background-color:lightgray;
+border-radius:none;
+border-bottom:2px solid white;
 }</string>
      </property>
      <property name="placeholderText">
@@ -155,7 +179,7 @@ border-radius:13px;
 border-bottom:2px solid black;}</string>
      </property>
      <property name="text">
-      <string>ENVOYER</string>
+      <string>SEND</string>
      </property>
     </widget>
    </widget>
